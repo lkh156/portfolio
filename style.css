@@ -1,18 +1,21 @@
 /* CSS code will be in this document */
 
+/*This formats the body of my site */
 body{
     width: 90%;
     margin: 0 auto;
 }
-
+/* this makes the over flow go auto */
 #content {
     overflow: auto;
 }
 
+/* sets a margin for my #nav, #portfolio-projects, and #footer sections*/
 #nav, #portfolio-projects, #footer {
     margin: 1%;
 }
 
+/* stylizes the boxes for .about, educational-background, and .coding-languages */
 .about, .educational-background, .coding-languages {
     width: 31.3%;
     float: left;
@@ -25,12 +28,14 @@ body{
     margin-right: 0%;
 }
 
+/* makes navigation menu display in a line*/
 .nav {
     display: inline;
     padding: 0.5em;
     text-align: center;
 }
 
+/* adds color to the background and sets the font family for my #nav and #footer */
 #nav, #footer {
     background-color: #efefef;
     padding: 0.5em 0;
@@ -46,6 +51,7 @@ body{
   box-sizing: border-box;
 }
 
+/* stylizing the rest of the document most notably changing the font text of the h1,h2,h3 to darkred, also adjusted height and width of the image used */
 .coding-languages > h3 {
   color: darkred;
 }
