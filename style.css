@@ -23,7 +23,7 @@ body{
     margin-right: 0%;
 }
 
-li {
+.nav {
     display: inline;
     padding: 0.5em;
 }
