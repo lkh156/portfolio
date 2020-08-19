@@ -9,17 +9,17 @@ body{
     overflow: auto;
 }
 
-#nav, #feature, #footer {
+#nav, #portfolio-projects, #footer {
     margin: 1%;
 }
 
-.column1, .column2, .column3 {
+.about, .educational-background, .coding-languages {
     width: 31.3%;
     float: left;
     margin: 1%;
 }
 
-.column3 {
+.coding-languages {
     margin-right: 0%;
 }
 
@@ -33,7 +33,7 @@ li {
     padding: 0.5em 0;
 }
 
-#feature, .article {
+#portfolio-projects, .article {
     height: 10em;
     margin-bottom: 1em;
     background-color: #efefef
