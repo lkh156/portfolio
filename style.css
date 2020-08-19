@@ -1,0 +1,76 @@
+/* this css code is used to stylize portfolio page */
+body {
+    min-width: 350px;
+  }
+  /* sets header background color to a darkred */
+  header {
+    background-color: darkred;
+  }
+  /*sets the style for footer including a darkred background */
+  footer {
+      background-color:darkred;
+      color: white;
+      margin: 200px 0 0 0;
+      padding: 20px 0;
+  }
+  /* formatting for the h1 */
+  h1 {
+    color: white;
+    padding: 60px 0 20px 20px;
+    margin: 0;
+    float: left;
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+  }
+  /* paragraph formatting */
+  p {
+    padding-left: 20px;
+    text-align: center;
+  }
+  /* navigation menu formating*/
+  nav {
+    border: 5px ridge whitesmoke;
+    padding: 10px;
+    margin: 60px 20px 0 0;
+    width: 90%;
+    float: right;
+    color: #fff;
+  }
+  /* allows links in navigation menu to space out */
+  a{
+    padding: 0 10px;
+  }
+  /* using css to control size of the image which was retrieved on unsplash.com and uploaded by Christopher Robin Ebbinghaud */
+  img{
+    height: 200px;
+    width: 100%;
+  }
+  
+  
+  header:after, 
+  nav:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }  
+
+  /* formating the h2 and h3 */
+  h2, h3 {
+    color: darkred;
+  }
+
+  /* creating buttons for nav menu*/
+  .btn{
+    color :darkred;
+    background-color: white;
+    border: 1px solid white;
+  }
+
+  /* psuedo-class for links determining what happens when a link is activated and when moused over*/
+  a:link {
+    color: darkred;
+  }
+  a:hover{
+    color: black;
+  }
