@@ -2,19 +2,14 @@
     body {
         margin: 0;
       }
-      h2{
-          text-align: center;
-          font-size: 40px;
-          color: darkred;
-      }
-      
+     
       header {
         background-color:darkred;
         margin-bottom: 40px;
       }
       
       header h1 {
-        font-size: 52px;
+        font-size: 40px;
         color: #fff;
         text-align: center;
         margin: 0;
@@ -33,7 +28,7 @@
       }
       
       header nav ul li a {
-        font-family: Montserrat;
+        font-family: sans-serif;
         color: #fff;
         text-decoration: none;
         margin: 0 20px 0 0;
@@ -42,7 +37,11 @@
         margin-right: 0;
       }
       
-     
+      h2{
+        text-align: center;
+        font-size: 40px;
+        color: darkred;
+    }
 .group{
     background-color: white;
     display: flex;
@@ -87,7 +86,6 @@
     opacity: 0.7;
   }
 
-/* Container for skill bars */
 .skill-confidence {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 10px;
@@ -102,15 +100,15 @@
 }
 
 .container {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
+  width: 100%; 
+  background-color: #ddd; 
 }
 
 .skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
+  text-align: right;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  color: white; 
 }
 
 .html {
@@ -142,14 +140,9 @@
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    margin: auto;
+    margin: 10px;
     text-align: center;
     font-family: arial;
-  }
-  
-  .price {
-    color: grey;
-    font-size: 22px;
   }
 
   .contactForm {
@@ -170,11 +163,33 @@
       resize: vertical;
   }
 
-@media all and (min-width: 600px) {
-    header {
+  .wrapper {
+    margin: auto;	
+    background-color: darkred;
+    text-align:center;
+    font-size: 20px;
+    color: white;
+  }
+
+  .wrapper a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+  }
+  .gap-footer {
+    height: 10px;
+    width: auto;
+}
+
+@media all and (min-width: 800px) {
+    header, .group {
       display: flex;
       justify-content: space-between;
       padding: 0 30px;
+      flex-direction: row;
+      width: 80%;
+      margin: auto;
     }
   
     header h1 {
