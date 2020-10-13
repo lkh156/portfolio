@@ -43,9 +43,10 @@
         font-size: 40px;
         color: darkred;
     }
-.group{
+.group {
     background-color: white;
     display: flex;
+    flex-direction: column;
 }
 .about {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -140,10 +141,11 @@
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    max-width: 500px;
     margin: 10px;
     text-align: center;
     font-family: arial;
+    flex:1;
   }
 
   .contactForm {
@@ -189,6 +191,11 @@
       justify-content: space-between;
       padding: 0 30px;
       flex-direction: row;
+    }
+    .group {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
   
     header h1 {
