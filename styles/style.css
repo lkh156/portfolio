@@ -141,7 +141,7 @@
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 500px;
+    max-width: 100%;
     margin: 10px;
     text-align: center;
     font-family: arial;
@@ -153,6 +153,7 @@
     margin: 10px;
     text-align: center;
     flex: 1.5;
+    justify-content: center;
   }
 
   input[type=text], input[type=email], textarea {
