@@ -1,1 +1,0 @@
-// Javascript will be implemented in this document
